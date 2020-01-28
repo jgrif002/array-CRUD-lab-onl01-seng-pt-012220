@@ -7,7 +7,6 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  ice_cream = ["Chocolate", "Vanilla", "Mint", "Stawberry"]
   
 end
 
@@ -16,13 +15,13 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  friends = ["Evan", "Scott", "Phil", "TJ"]
-  friends.pop
+  array = ["Evan", "Scott", "Phil", "TJ"]
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  friends = ["Jon", "Kevin", "Gio"]
-  friends.shift
+  array = ["Jon", "Kevin", "Gio"]
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
